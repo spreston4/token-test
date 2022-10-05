@@ -27,5 +27,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Shipwright Tokens
-        uses: headwayio/shipwright-tokens@v0.1.1-beta
+        uses: headwayio/shipwright-tokens@v0.1.0-beta
 
