@@ -4,13 +4,13 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 11 Oct 2022 16:15:30 GMT
+// Generated on Tue, 11 Oct 2022 16:23:21 GMT
 
 
 import UIKit
 
 internal struct StyleDictionaryStruct {
-    internal static let 0 = 0
+    internal static let 0 = 1
     internal static let 01 = linear-gradient(90deg, #dcfce7 0%, #fce7f3 100%)
     internal static let 02 = linear-gradient(90deg, #c7d2fe 0%, #4ade80 100%)
     internal static let 03 = linear-gradient(90deg, #dcfce7 0%, #dbeafe 100%)
