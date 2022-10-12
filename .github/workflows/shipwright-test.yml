@@ -9,9 +9,6 @@ on:
   push:
     branches: 
       - 'tokens/**'
-  pull_request: 
-    branches:
-      - 'main'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -28,7 +25,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Shipwright Tokens
-        uses: headwayio/shipwright-tokens@main
+        uses: headwayio/shipwright-tokens@spreston/output-directory-style-dictionary
         with: 
           tokenFile: tokens/tokens.json
-          outputFolder: tokens/dist
+          tokenOutputFolder: tokens/dist
+          styleOutputFolder: styles
+          
