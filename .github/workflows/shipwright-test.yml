@@ -25,7 +25,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Shipwright Tokens
-        uses: headwayio/shipwright-tokens@spreston/output-directory-style-dictionary
+        uses: headwayio/shipwright-tokens@spreston/output-directory-style-dictionary-v2
         with: 
           tokenFile: tokens/tokens.json
           tokenOutputFolder: tokens/dist
