@@ -28,6 +28,6 @@ jobs:
         uses: headwayio/shipwright-tokens@spreston/output-directory-style-dictionary-v2
         with: 
           tokenFile: tokens/tokens.json
-          tokenOutputFolder: transformed
-          styleOutputFolder: styles
+          tokenOutputFolder: test/tokens/transformed
+          styleOutputFolder: test/tokens/styles
           
