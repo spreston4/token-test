@@ -1,0 +1,1 @@
+{"source":["build/style-dictionary/*.json"],"platforms":{"tailwind":{"transformGroup":"js/custom","buildPath":"build/","files":[{"destination":"typography.json","format":"twTypography"},{"destination":"misc.json","format":"twMisc"},{"destination":"colors.json","format":"twColors"},{"destination":"shadows.json","format":"twShadows"}]}}}
